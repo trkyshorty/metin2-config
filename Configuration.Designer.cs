@@ -72,8 +72,8 @@
             this.soundGroup = new System.Windows.Forms.GroupBox();
             this.trackBar2 = new System.Windows.Forms.TrackBar();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.soundEffectsLabel = new System.Windows.Forms.Label();
+            this.musicLabel = new System.Windows.Forms.Label();
             this.petsGroup = new System.Windows.Forms.GroupBox();
             this.petsOffRadioButton = new System.Windows.Forms.RadioButton();
             this.petsOnRadioButton = new System.Windows.Forms.RadioButton();
@@ -541,8 +541,8 @@
             // 
             this.soundGroup.Controls.Add(this.trackBar2);
             this.soundGroup.Controls.Add(this.trackBar1);
-            this.soundGroup.Controls.Add(this.label2);
-            this.soundGroup.Controls.Add(this.label1);
+            this.soundGroup.Controls.Add(this.soundEffectsLabel);
+            this.soundGroup.Controls.Add(this.musicLabel);
             this.soundGroup.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.soundGroup.Location = new System.Drawing.Point(12, 112);
             this.soundGroup.Name = "soundGroup";
@@ -575,23 +575,23 @@
             this.trackBar1.TabIndex = 13;
             this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.None;
             // 
-            // label2
+            // soundEffectsLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Effects";
+            this.soundEffectsLabel.AutoSize = true;
+            this.soundEffectsLabel.Location = new System.Drawing.Point(10, 35);
+            this.soundEffectsLabel.Name = "soundEffectsLabel";
+            this.soundEffectsLabel.Size = new System.Drawing.Size(41, 13);
+            this.soundEffectsLabel.TabIndex = 13;
+            this.soundEffectsLabel.Text = "Effects";
             // 
-            // label1
+            // musicLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Music";
+            this.musicLabel.AutoSize = true;
+            this.musicLabel.Location = new System.Drawing.Point(10, 17);
+            this.musicLabel.Name = "musicLabel";
+            this.musicLabel.Size = new System.Drawing.Size(33, 13);
+            this.musicLabel.TabIndex = 12;
+            this.musicLabel.Text = "Music";
             // 
             // petsGroup
             // 
@@ -749,8 +749,8 @@
         private System.Windows.Forms.RadioButton nightModeOnRadioButton;
         private System.Windows.Forms.ComboBox languageComboBox;
         private System.Windows.Forms.GroupBox soundGroup;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label soundEffectsLabel;
+        private System.Windows.Forms.Label musicLabel;
         private System.Windows.Forms.GroupBox petsGroup;
         private System.Windows.Forms.CheckBox softwareCursorCheckbox;
         private System.Windows.Forms.Button okButton;
