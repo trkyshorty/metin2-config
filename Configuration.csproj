@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\IniFile.cs" />
     <Compile Include="Configuration.cs">
       <SubType>Form</SubType>
     </Compile>
